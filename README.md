@@ -5,6 +5,8 @@
 
 2. Spring MVC Controller
     - Controller -> URI + HTTP Method + Functionality (Java Method)
+    
+3. Spring Boot Actuator
 
 ### Gotchas
 1. [Component Scan if Controller is not getting mapped](https://stackoverflow.com/questions/45183875/spring-boot-controller-not-mapping/51658190)
