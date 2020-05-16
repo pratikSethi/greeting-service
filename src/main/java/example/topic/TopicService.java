@@ -20,4 +20,16 @@ public class TopicService {
     public List<Topic> getAllTopics(){
         return this.topics;
     }
+
+    public Topic getTopic(int id){
+        return topics
+                .stream()
+                .filter(topic -> topic.getCourseId() == id)
+                .findFirst()
+                .get();
+    }
+
+    public void addTopic(Topic topic){
+        topics.add(topic);
+    }
 }

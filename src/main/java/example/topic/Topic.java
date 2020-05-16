@@ -40,4 +40,13 @@ public class Topic {
     public void setDescription(String description) {
         this.description = description;
     }
+
+    @Override
+    public String toString() {
+        return String.format("courseId: %d, courseName: %s, description: %s",
+                courseId,
+                courseName,
+                description
+        );
+    }
 }

@@ -1,11 +1,10 @@
 package example.topic;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
+
 import java.util.List;
-import java.util.LinkedList;
-import java.util.Arrays;
+
 
 @RestController
 public class TopicController {
@@ -16,5 +15,15 @@ public class TopicController {
     @RequestMapping("/topics")
     public List<Topic> getAllTopics(){
         return topicService.getAllTopics();
+    }
+
+    @RequestMapping("/topics/{id}")
+    public Topic getTopic(@PathVariable int id){
+        return topicService.getTopic(id);
+    }
+
+    @RequestMapping(method = RequestMethod.POST, value = "/topics")
+    public void addTopic(@RequestBody Topic topic){
+        topicService.addTopic(topic);
     }
 }
