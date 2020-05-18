@@ -1,7 +1,12 @@
 package example.topic;
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
+@Entity
 public class Topic {
 
+    @Id
     private int courseId;
     private String courseName;
     private String description;
