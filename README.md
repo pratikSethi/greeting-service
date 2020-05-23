@@ -1,5 +1,10 @@
 ### How to run this app
 
+- Using .war or .jar
+``` 
+  java -jar <jarFilePath>.jar
+```
+
 ### Concepts
 1. Bill of Materials (BOM) in Spring and Maven
 
@@ -7,6 +12,14 @@
     - Controller -> URI + HTTP Method + Functionality (Java Method)
     
 3. Spring Boot Actuator
+
+4. Spring Security
+
+5. Spring Data JPA
+
+6. App Packaging
+
+7. Spring Boot App Configs
 
 ### Gotchas
 1. [Component Scan if Controller is not getting mapped](https://stackoverflow.com/questions/45183875/spring-boot-controller-not-mapping/51658190)
