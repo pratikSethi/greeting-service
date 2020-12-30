@@ -37,12 +37,26 @@
 9. Run multiple instances of the app through Docker compose or Kubernetes
 10. Add a Open API v3 compliant spec file (yaml) for the APIs with examples
 11. Remove unnecessary controller from the Swagger UI
+12. Add logging support through SLF4J
+13. See if we can secure endpoints through Spring Security
+14. Add micrometer to expose metrics
 
-
+ 
+### Dependencies 
+1. Swagger
+    1. SpringFox
+    2. SpringFox UI
+2. Micrometer Prometheus
+3. Lombok
+4. Actuator
 
 ### Gotchas
 1. [Component Scan if Controller is not getting mapped](https://stackoverflow.com/questions/45183875/spring-boot-controller-not-mapping/51658190)
 2. [Derby Error: Error executing DDL "drop table topic" via JDBC Statement](https://github.com/spring-projects/spring-boot/issues/7706)
 
 ### References
-1. [How Spring MVC Works - Java Brains YouTube](https://www.youtube.com/watch?v=xkDBaldNki4&list=PLqq-6Pq4lTTbx8p2oCgcAQGQyqN8XeA1x&index=15)  
+1. [How Spring MVC Works - Java Brains YouTube](https://www.youtube.com/watch?v=xkDBaldNki4&list=PLqq-6Pq4lTTbx8p2oCgcAQGQyqN8XeA1x&index=15)
+
+### Notes
+1. Make sure the version of Prometheus-Micrometer dependency is compatible with the Spring Boot version
+  
