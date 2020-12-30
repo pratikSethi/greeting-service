@@ -56,6 +56,7 @@
 
 ### References
 1. [How Spring MVC Works - Java Brains YouTube](https://www.youtube.com/watch?v=xkDBaldNki4&list=PLqq-6Pq4lTTbx8p2oCgcAQGQyqN8XeA1x&index=15)
+2. [Monitoring Spring Boot App with Prometheus and Grafana](https://medium.com/faun/monitoring-springboot-application-with-prometheus-and-grafana-45c1023471e6)
 
 ### Notes
 1. Make sure the version of Prometheus-Micrometer dependency is compatible with the Spring Boot version
