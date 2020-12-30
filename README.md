@@ -36,6 +36,7 @@
 8. See how we can integrate this with **Grafana and Prometheus**
 9. Run multiple instances of the app through Docker compose or Kubernetes
 10. Add a Open API v3 compliant spec file (yaml) for the APIs with examples
+11. Remove unnecessary controller from the Swagger UI
 
 
 
