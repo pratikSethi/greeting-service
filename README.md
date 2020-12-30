@@ -30,11 +30,12 @@
 2. Add tests and code coverage
 3. Bootstrap app with some sample data
 4. Dockerize the app
-5. Use Jmeter to do performance testing
+5. Use Jmeter to do **performance testing**
 6. See if Karate + Gatling can help with task #5
 7. Expose app metrics through the actuator
-8. See how we can integrate this with Grafana and Prometheus
+8. See how we can integrate this with **Grafana and Prometheus**
 9. Run multiple instances of the app through Docker compose or Kubernetes
+10. Add a Open API v3 compliant spec file (yaml) for the APIs with examples
 
 
 
